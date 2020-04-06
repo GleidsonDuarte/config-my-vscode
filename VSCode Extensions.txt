@@ -1,0 +1,71 @@
+1) Install Fira Code in local host and configure vscode by accept the font.
+https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
+
+2) VSCode Extensions.
+
+Material Icon Theme
+pkief.material-icon-theme
+
+Material Theme
+equinusocio.vsc-material-theme
+
+Dracula Official
+dracula-theme.theme-dracula
+
+Rainbow Brackets
+2gua.rainbow-brackets
+
+Color Highlight
+naumovs.color-highlight
+Note: Disable the COLOR DECORATION option in the vscode settings text editor.
+
+HTML Snippets
+abusaidm.html-snippets
+
+Beautify JS
+hookyqr.beautify
+
+YAML
+redhat.vscode-yaml
+
+Markdown
+yzhang.markdown-all-in-one
+
+DotENV
+mikestead.dotenv
+
+Bookmarks
+alefragnani.bookmarks
+
+GitLens — Git supercharged
+eamodio.gitlens
+
+Azure Cosmos DB
+ms-azuretools.vscode-cosmosdb
+
+Docker
+ms-azuretools.vscode-docker
+
+Docker Compose
+p1c2u.docker-compose
+
+Kubernetes
+ms-kubernetes-tools.vscode-kubernetes-tools
+
+Live Share
+ms-vsliveshare.vsliveshare
+
+Power Mode
+hoovercj.vscode-power-mode
+
+3) Paste this configs in archive "settings.json" on VSCode.
+{
+	"editor.colorDecorators": false,
+    "editor.fontSize": 18,
+    "editor.lineHeight": 24,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "all",
+    "powermode.enabled": true,
+    "powermode.presets": "flames"
+}
